@@ -1,0 +1,326 @@
+# Blank WordPress Pot
+# Copyright 2024 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ainisa Smart Reviewer Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2024-07-07 20:34+0400\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: az\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ainisa-smart-reviewer.php:60
+msgid "AI Smart Reviewer Settings"
+msgstr "Süni İntellektli Rəy Yazan Ayarları"
+
+#: ainisa-smart-reviewer.php:61
+msgid "AI Smart Reviewer"
+msgstr "Süni İntellektli Rəy Yazan"
+
+#: ainisa-smart-reviewer.php:71 ainisa-smart-reviewer.php:72
+msgid "Add new review"
+msgstr "Yeni rəy yaz"
+
+#: ainisa-smart-reviewer.php:94
+msgid "Settings saved !"
+msgstr "Ayarlar yadda saxlandı !"
+
+#: class.ainisa-smart-reviewer-settings.php:65
+msgid "How does it work"
+msgstr "Necə işləyir"
+
+#: class.ainisa-smart-reviewer-settings.php:75 views/settings_page.php:8
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: class.ainisa-smart-reviewer-settings.php:83 config/namings.php:21
+msgid "Temperature"
+msgstr "Temperatur"
+
+#: class.ainisa-smart-reviewer-settings.php:91 config/namings.php:22
+msgid "Maximum tokens"
+msgstr "Maksimum token"
+
+#: class.ainisa-smart-reviewer-settings.php:99 config/namings.php:19
+msgid "Open Ai Secret Key"
+msgstr "Open Ai gizli açar"
+
+#: class.ainisa-smart-reviewer-settings.php:110 config/namings.php:20
+msgid "Ai Model"
+msgstr "Ai Modeli"
+
+#: class.ainisa-smart-reviewer-settings.php:122 config/namings.php:23
+msgid "Ai default prompt"
+msgstr "Standart prompt mətni"
+
+#: class.ainisa-smart-reviewer-settings.php:139
+msgid ""
+"This plugin is powered by <a href=\"https://ainisa.com\" "
+"target=\"_blank\">Ainisa</a>"
+msgstr ""
+"Bu plugin <a href=\"https://ainisa.com\" target=\"_blank\">Ainisa</a> "
+"tərəfindən yaradılmışdır"
+
+#: class.ainisa-smart-reviewer-settings.php:140
+msgid "It helps you to create reviews and comments like human"
+msgstr "O sizə sanki bir insan tərəfindən yazılmış rəylər hazırlayır"
+
+#: class.ainisa-smart-reviewer-settings.php:141
+msgid "Please, go to link to read how to use the plugin"
+msgstr "Plugini necə işlətməyi bilmək üçün linkə keçid edin"
+
+#: class.ainisa-smart-reviewer-settings.php:141
+msgid "Click here"
+msgstr "Bura klik edin"
+
+#: config/namings.php:4 views/new_review_page.php:12
+msgid "Select post type"
+msgstr "Post növünü seçin"
+
+#: config/namings.php:5 views/new_review_page.php:36
+msgid "Posts which have comments less than"
+msgstr "Rəy sayı neçədən az olan postlar"
+
+#: config/namings.php:6 views/new_review_page.php:28
+msgid "Number of posts"
+msgstr "Maksimum post sayı"
+
+#: config/namings.php:9 views/new_review_page.php:116
+msgid "Review prompt"
+msgstr "Rəy üçün prompt"
+
+#: config/namings.php:12 views/new_review_page.php:59
+msgid "User e-mail"
+msgstr "İstifadəçi e-maili"
+
+#: config/namings.php:13 views/new_review_page.php:67
+msgid "User firstname"
+msgstr "İstifadəçi adı"
+
+#: config/namings.php:14 views/new_review_page.php:75
+msgid "User lastname"
+msgstr "İstifadəçi soyadı"
+
+#: config/namings.php:15 views/new_review_page.php:120
+msgid "Review"
+msgstr "Rəy"
+
+#: config/namings.php:16 views/new_review_page.php:86
+#: views/new_review_page.php:90
+msgid "Select post"
+msgstr "Postu seç"
+
+#: config/validations.php:4
+#, php-format
+msgid "%s is required"
+msgstr "%s boşdur"
+
+#: config/validations.php:5
+#, php-format
+msgid "%s should not be empty"
+msgstr "%s boş ola bilməz"
+
+#: config/validations.php:6
+#, php-format
+msgid "%s must be integer"
+msgstr "%s rəqəm olmalıdır"
+
+#: config/validations.php:7
+#, php-format
+msgid "%s must be float"
+msgstr "%s kəsr rəqəm olmalıdır"
+
+#: config/validations.php:8
+#, php-format
+msgid "%s must be numeric"
+msgstr "%s rəqəm olmalıdır"
+
+#: config/validations.php:9
+#, php-format
+msgid "%s is wrong email"
+msgstr "%s düzgün e-mail deyi"
+
+#: config/validations.php:10
+#, php-format
+msgid "%s should contain only letters"
+msgstr "%s yalnız hərfdən ibarət ola bilər"
+
+#: config/validations.php:11
+#, php-format
+msgid "%s should contain only letters and numbers"
+msgstr "%s hərf və rəqəmdən ibarət ola bilər"
+
+#: config/validations.php:12
+#, php-format
+msgid "%s is not valid IP address"
+msgstr "%s düzgün İP ünvan deyil"
+
+#: config/validations.php:13
+#, php-format
+msgid "%s is not valid url"
+msgstr "%s düzgün link deyil"
+
+#: config/validations.php:14
+#, php-format
+msgid "%s can have maximum %s letters"
+msgstr "%s maksimum %s hərfdən ibarət ola bilər"
+
+#: config/validations.php:15
+#, php-format
+msgid "%s can have minimum %s letters"
+msgstr "%s minimum %s hərfdən ibarət ola bilər"
+
+#: config/validations.php:16
+#, php-format
+msgid "%s can have %s letters "
+msgstr "%s tam %s hərfdən ibarət ola bilər "
+
+#: config/validations.php:17
+#, php-format
+msgid "%s length can be %s - %s letters"
+msgstr "%s uzunluğu %s - %s hərfdən ibarət ola bilər"
+
+#: config/validations.php:18
+#, php-format
+msgid "%s and %s must be equal"
+msgstr "%s və %s bərabər olmalıdır"
+
+#: config/validations.php:19
+#, php-format
+msgid "%s can be minimum %s"
+msgstr "%s minimum %s ola bilər"
+
+#: config/validations.php:20
+#, php-format
+msgid "%s can be maximum %s"
+msgstr "%s maksimum %s ola bilər"
+
+#: config/validations.php:21
+#, php-format
+msgid "%s should be between %s and %s"
+msgstr "%s %s və %s arasında ola bilər"
+
+#: config/validations.php:22
+#, php-format
+msgid "%s should have between %s and %s characters"
+msgstr "%s  %s və %s arasında hərfdən ibarət ola bilər"
+
+#: config/validations.php:23
+#, php-format
+msgid "%s should be 0 or 1."
+msgstr "%s 0 ya da 1 ola bilər."
+
+#: config/validations.php:24 config/validations.php:25
+#, php-format
+msgid "%s exists."
+msgstr "%s artıq var."
+
+#: config/validations.php:28
+msgid "Please select post !"
+msgstr "Bir post seçin !"
+
+#: config/validations.php:29
+msgid "Select"
+msgstr "Postu seçin"
+
+#: routes/class.ainisa-smart-reviewer-routes.php:102
+msgid "Review is ready ! You can save it"
+msgstr "Rəy hazırdır ! Onu yadda saxla bilərsiniz"
+
+#: routes/class.ainisa-smart-reviewer-routes.php:105
+msgid "Could not get review. Please try again"
+msgstr "Rəy hazırlamaq mümkün olmadı. Yenidən cəhd edin"
+
+#: routes/class.ainisa-smart-reviewer-routes.php:172
+msgid "Review successfully created"
+msgstr "Rəy hazırdır"
+
+#: routes/class.ainisa-smart-reviewer-routes.php:200
+msgid "Problem happened"
+msgstr "Problem oldu"
+
+#: routes/class.ainisa-smart-reviewer-routes.php:213
+msgid "Number of data"
+msgstr "Tapılmış məlumat sayı"
+
+#: views/new_review_page.php:5
+msgid "Find posts to select"
+msgstr "Seçmək üçün postları axtarın"
+
+#: views/new_review_page.php:44
+msgid "Get posts"
+msgstr "Postları tap"
+
+#: views/new_review_page.php:49
+msgid "Select your post, create your review and save it"
+msgstr "Postu seçin, rəyi hazırlayın və yadda saxlayın"
+
+#: views/new_review_page.php:105
+msgid "Review title"
+msgstr "Rəy başlığı"
+
+#: views/new_review_page.php:110 views/new_review_page.php:122
+msgid "Will be created by AI"
+msgstr "Rəy süni intellektlə hazırlanacaq"
+
+#: views/new_review_page.php:127
+msgid "Get AI review"
+msgstr "Rəyi hazırla"
+
+#: views/new_review_page.php:128
+msgid "Save review"
+msgstr "Rəyi yadda saxla"
+
+#: views/settings_page.php:7
+msgid "Information"
+msgstr "İnformasiya"
+
+#: views/settings_page.php:19
+msgid "Save"
+msgstr "Yadda saxla"
+
+#~ msgid "How it works information"
+#~ msgstr ""
+#~ "Plugini işlətmək üçün aşağıdakıları edin:\n"
+#~ "1. Bu səhifədən ayarlara keçin \n"
+#~ "2. Bütün ayarları doldurub yadda saxlayın \n"
+#~ "Diqqət: ChatGpt-dən gizli açarı əldə edin. Əldə etmək üçün Bura %s klik "
+#~ "edin\n"
+#~ "\n"
+#~ "Sonra Yeni rəy yaz bölməsinə keçin:\n"
+#~ "1. Hansı tip postlar üçün rəy yazmaq istəsəniz Postları gətir üzərinə "
+#~ "vurun\n"
+#~ "2. Sonra postu seçin və Rəy Hazırla üzərinə klik edin\n"
+#~ "3. Rəyiniz hazır olduqda Rəy xanasına avtomatik əlavə olunacaq\n"
+#~ "4. Rəyi yaddax saxlamaq üçün Yadda saxla üzərinə vurun"
+
+#~ msgid "Use the shortcode ainisa to use it in any post/page"
+#~ msgstr ""
+#~ "Use the shortcode <strong>ainisa</strong> to use it in any post/page"
+
+#~ msgid "Post"
+#~ msgstr "Post növünü seçin"
+
+#~ msgid "User email"
+#~ msgstr "İstifadəçi e-maili"
+
+#~ msgid "Number of comments less than"
+#~ msgstr "Rəy sayı neçədən az olan postlar tapılsın"
+
+#~ msgid "User firstnme"
+#~ msgstr "İstifadəçi adı"
